@@ -3,9 +3,11 @@ __pycache__
 _ext
 *.pyc
 *.so
-*.egg-info/
+*.egg-info
 .idea
 venv
-
+build
+.eggs
+dist
 
 
