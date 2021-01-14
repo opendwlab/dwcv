@@ -1,0 +1,11 @@
+
+__pycache__
+_ext
+*.pyc
+*.so
+*.egg-info/
+.idea
+venv
+
+
+
