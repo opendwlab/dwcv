@@ -12,7 +12,7 @@ def get_version():
         exec(compile(f.read(), version_file, 'exec'))
     return locals()['__version__']
 
-def parse_requirements(fname='requirements/runtime.txt', with_version=True):
+def parse_requirements(fname='requirements.txt', with_version=True):
     """Parse the package dependencies listed in a requirements file but strips
     specific versioning information.
     Args:
@@ -108,7 +108,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Topic :: Utilities',
     ],
-    url='https://github.com/open-mmlab/mmcv',
+    url='https://github.com/opendwlab/dwcv',
     author='dwcv',
     author_email='opendwlab@gmail.com',
     setup_requires=['pytest-runner'],
